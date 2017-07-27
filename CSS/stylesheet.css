@@ -1,0 +1,124 @@
+element.style {
+}
+
+header{
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  height: 88px;
+}
+
+logo{
+  display: flex;
+  flex-grow:1;
+  align-items: center;
+  color: MediumAquamarine;
+  padding: 30px;
+
+}
+
+nav{
+ display: inline-block;
+ padding: 20px 10px;
+ margin-right: 32px;
+ justify-content: flex-end;
+ position: absolute;
+ Right: 0;
+
+
+}
+
+.content{
+  display: flex;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+.column.large{
+  width: 630px;
+  align-content: flex-start;
+  margin-top: 80px;
+  margin-right: 20px;
+
+}
+
+.lead-story .image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  width: 630px;
+  text-align: left;
+  margin-top:0;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+  border:1px solid green;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right:10px;
+}
+
+.image-content1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.image-content2{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+.column.medium {
+  width: 300px;
+  align-content: center;
+  margin:80px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small{
+  width: 240px;
+  align-content: flex-end;
+  margin-top: 90px;
+}
+
+.cookie{
+  width:240px;
+  display: flex;
+  aligh-content: flex-end;
+}
