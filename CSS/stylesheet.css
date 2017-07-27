@@ -85,6 +85,7 @@ nav{
   color: white;
   text-align: center;
   justify-content: space-between;
+  width: 300px;
 }
 
 .image-content2{
@@ -93,15 +94,29 @@ nav{
   flex-direction: column;
   justify-content: center;
   height: 300px;
+  width:300px;
   margin-top: 15px;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+  position:relative;
 }
 
-
-
+.image-content3{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width:300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  position:relative;
+}
 
 .column.medium {
   width: 300px;
@@ -117,8 +132,17 @@ nav{
   margin-top: 90px;
 }
 
-.cookie{
+.NewsBites{
   width:240px;
-  display: flex;
-  aligh-content: flex-end;
+  align-content: flex-end;
+  margin-top:90px;
 }
+
+.image-content4{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
+  display: flex;
+  align-content: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  width:240px;
+  margin-top: 15px;
